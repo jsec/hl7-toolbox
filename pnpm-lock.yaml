@@ -12,8 +12,8 @@ devDependencies:
     specifier: 1.2.1
     version: 1.2.1
   '@jarsec/tsconfig':
-    specifier: 1.1.0
-    version: 1.1.0
+    specifier: 2.0.0
+    version: 2.0.0
   '@types/node':
     specifier: 20.8.0
     version: 20.8.0
@@ -33,7 +33,7 @@ devDependencies:
     specifier: 14.0.1
     version: 14.0.1
   tsx:
-    specifier: ^3.14.0
+    specifier: 3.14.0
     version: 3.14.0
   typescript:
     specifier: 5.2.2
@@ -442,8 +442,8 @@ packages:
     resolution: {integrity: sha512-Zt1jOtrMkLUtZxR5ovWUkDAFQumHeAcCLObrF3Xq2OFUE3DgXtRdmVgzX6YTAYthkASwm+wGsNI7F18fWWvqvg==}
     dev: true
 
-  /@jarsec/tsconfig@1.1.0:
-    resolution: {integrity: sha512-UuYclegVElZGV1YHl05HWnqU8cbwYGV5yZXQ2N2pJdGxpOBlyJEdEua2B4qvbFuyn72trQG2bTsMnr2ok/iOew==}
+  /@jarsec/tsconfig@2.0.0:
+    resolution: {integrity: sha512-8R0YsGTvffZOBSZn9iUaDJoVaUKRtQFRRlCE14T141sAc7rMGsgE0Ovdn5cox0CTciWZziH4z1Ovv/VUP4du6w==}
     dev: true
 
   /@jridgewell/resolve-uri@3.1.1:
