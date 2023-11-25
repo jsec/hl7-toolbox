@@ -15,8 +15,8 @@ devDependencies:
     specifier: 2.0.0
     version: 2.0.0
   '@types/node':
-    specifier: 20.9.4
-    version: 20.9.4
+    specifier: 20.10.0
+    version: 20.10.0
   ava:
     specifier: 5.3.1
     version: 5.3.1
@@ -33,8 +33,8 @@ devDependencies:
     specifier: 15.1.0
     version: 15.1.0
   tsx:
-    specifier: 4.2.0
-    version: 4.2.0
+    specifier: 4.5.0
+    version: 4.5.0
   typescript:
     specifier: 5.3.2
     version: 5.3.2
@@ -112,7 +112,7 @@ packages:
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
-      ts-node: 10.9.1(@types/node@20.9.4)(typescript@5.3.2)
+      ts-node: 10.9.1(@types/node@20.10.0)(typescript@5.3.2)
       typescript: 5.3.2
     transitivePeerDependencies:
       - '@swc/core'
@@ -554,8 +554,8 @@ packages:
     dev: true
     optional: true
 
-  /@types/node@20.9.4:
-    resolution: {integrity: sha512-wmyg8HUhcn6ACjsn8oKYjkN/zUzQeNtMy44weTJSM6p4MMzEOuKbA3OjJ267uPCOW7Xex9dyrNTful8XTQYoDA==}
+  /@types/node@20.10.0:
+    resolution: {integrity: sha512-D0WfRmU9TQ8I9PFx9Yc+EBHw+vSpIub4IDvQivcp26PtPrdMGAq5SDcpXEo/epqa/DXotVpekHiLNTg3iaKXBQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1081,10 +1081,6 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /buffer-from@1.1.2:
-    resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
-    dev: true
-
   /buffer@5.7.1:
     resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
     dependencies:
@@ -1375,7 +1371,7 @@ packages:
     dependencies:
       '@types/node': 18.18.6
       cosmiconfig: 8.3.6(typescript@5.3.2)
-      ts-node: 10.9.1(@types/node@20.9.4)(typescript@5.3.2)
+      ts-node: 10.9.1(@types/node@20.10.0)(typescript@5.3.2)
       typescript: 5.3.2
     dev: true
     optional: true
@@ -3658,18 +3654,6 @@ packages:
       is-fullwidth-code-point: 4.0.0
     dev: true
 
-  /source-map-support@0.5.21:
-    resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==}
-    dependencies:
-      buffer-from: 1.1.2
-      source-map: 0.6.1
-    dev: true
-
-  /source-map@0.6.1:
-    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
-    engines: {node: '>=0.10.0'}
-    dev: true
-
   /sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
     dev: true
@@ -3871,7 +3855,7 @@ packages:
       typescript: 5.3.2
     dev: true
 
-  /ts-node@10.9.1(@types/node@20.9.4)(typescript@5.3.2):
+  /ts-node@10.9.1(@types/node@20.10.0)(typescript@5.3.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     requiresBuild: true
@@ -3891,7 +3875,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.9.4
+      '@types/node': 20.10.0
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -3917,14 +3901,13 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
-  /tsx@4.2.0:
-    resolution: {integrity: sha512-hvAXAz4KUYNyjXOjJJgyjT7YOGFUNLC8jnODI6Omc/wGKaZ7z0FvW5d2haqg1GLfX49H3nZOpLYRlHMYGI8Wbw==}
+  /tsx@4.5.0:
+    resolution: {integrity: sha512-hgxdziy9KLaHh9KE+a6tIZFP6kb0MLq/1D0sJVifbGP4QVEYhy6+2FNn7MyCm1pMc63p9CW/L1OzdqTNPxs6rg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
       esbuild: 0.18.20
       get-tsconfig: 4.7.2
-      source-map-support: 0.5.21
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
