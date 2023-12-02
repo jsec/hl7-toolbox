@@ -22,8 +22,8 @@
     }
   },
   "devDependencies": {
-    "@jarsec/eslint-config": "3.2.3",
-    "@jarsec/prettier-config": "1.2.1",
+    "@jarsec/eslint-config": "4.2.0",
+    "@jarsec/prettier-config": "2.1.0",
     "@jarsec/tsconfig": "2.0.0",
     "@types/node": "20.10.0",
     "ava": "5.3.1",
